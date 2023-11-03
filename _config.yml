@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: xiaomanzai
-subtitle: 'manzai'
-description: 'seasyec爱你哦'
+title: 010's space
+subtitle: manzai
+description: seasyec
 keywords: seasyec
 author: seasyec
 #language: zh-Hans
-timezone: 'Asia/Shanghai'
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://1.com
+url: http://seasyec.space.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
