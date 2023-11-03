@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: xiaomanzai/my-hxon # Path to your Github/Gitlab repository
+  repo: xiaomanzai/my-hxon1 # Path to your Github/Gitlab repository
   branch: main # Branch to update
   base_url: https://my-hxon.vercel.app
 
