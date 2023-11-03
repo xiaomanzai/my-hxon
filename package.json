@@ -23,12 +23,5 @@
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0"
-  },
-  "scripts": {
-    "build": "hexo generate"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.25",
-    "@types/simple-oauth2": "^4.1.0"
   }
 }
