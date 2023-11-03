@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <base href='/admin/'>
   <title>Content Manager</title>
-  <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@latest/build/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/netlify-cms@latest/dist/netlify-cms.js"></script>
-  <script>
-    CMS.registerPreviewStyle("https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css");
-    var PostPreview = createClass({
-      render: function() {
-        var entry = this.props.entry;
-        return h('div', {"className": "markdown-body"},
-          h('h1', {}, entry.getIn(['data', 'title'])),
-          h('div', {"className": "text"}, this.props.widgetFor('body'))
-        );
-      }
-    });
-    CMS.registerPreviewTemplate("Post", PostPreview);
-  </script>
+<!-- Include the script that builds the page and powers Netlify CMS -->
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </body>
 </html>

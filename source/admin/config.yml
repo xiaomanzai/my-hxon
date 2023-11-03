@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: xiaomanzai/xiaomanzai # Path to your Github/Gitlab repository
-  branch: main # Branch to update
-  base_url: http://my-hxon.vercel.app
+  name: git-gateway
+  branch: master # Branch to update (master by default)
 
 # These lines should *not* be indented
 media_folder: 'source/images' # Media files will be stored in the repo under source/images
