@@ -6,13 +6,13 @@ category: 技术
 ---
 #### 创建新的孤儿分支
 
-```
+``` bash
 1. git checkout --orphan latest_branch
 ```
 
 #### 增添本地文件
 
-```
+``` bash
 2.git add -A
 
 ```
@@ -21,19 +21,19 @@ category: 技术
 
 #### 删除主分支
 
-```
+``` bash
 git commit -am "master"
 ```
 
 #### 重命名当前分支
 
-```
+``` bash
 git branch -m master
 ```
 
 #### 强制提交
 
-```
+``` bash
 git checkout --orphan latest_branch
 ```
 
