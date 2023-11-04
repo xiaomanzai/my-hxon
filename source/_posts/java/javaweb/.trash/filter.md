@@ -1,0 +1,22 @@
+## filter的运行流程
+
+1. 请求
+2. 放行前逻辑
+3. 响应
+4. 放行后逻辑
+
+## 拦截路径
+
+- /具体路劲
+- /具体路劲/*
+- /*
+
+## filter链
+
+
+按照自然名称来运行链
+
+
+##  ...
+在springboot中还是要在Application中加上serveletcomponentscan的注解
+因为filter不是springboot自带的
