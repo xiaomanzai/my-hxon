@@ -1,7 +1,7 @@
 ---
 title: about
 layout: about
-comment: 'disqus'
+#comment: 'disqus'
 ---
 
 
