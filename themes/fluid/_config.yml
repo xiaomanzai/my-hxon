@@ -346,7 +346,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -720,7 +720,7 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
@@ -751,12 +751,12 @@ utterances:
 # Based on third-party service
 # See: https://disqus.com
 disqus:
-  shortname:
+  shortname: 1000010-space
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
   disqusjs: false
-  apikey:
+  apikey: qYJGUCLMFd0sP7LwKwgJo7zMbO3AkQEPWisMaYNp4e9y3Iqr2Nk5gRODYehetmpr
 
 # Gitalk
 # 基于 GitHub Issues
@@ -957,8 +957,7 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/xiaomanzai", tip: "GitHub" }
 
 
 #---------------------------
