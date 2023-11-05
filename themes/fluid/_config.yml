@@ -1000,10 +1000,10 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
+      title: "39fan Blog",
       intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      link: "https://blog.39fans.top/",
+      avatar: "/img/fridend1.bmp"
     }
     - {
       title: "Fluid Docs",
