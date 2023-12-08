@@ -3,6 +3,7 @@ title: "git如何清除历史记录"
 date: 2023-11-04T07:53:58.907Z
 tags: git
 category: 技术
+archive: true
 ---
 #### 创建新的孤儿分支
 
