@@ -3,6 +3,7 @@ title: collection
 tags:
   - 数据结构
 category: java ds
+date: 2023-11-02 17:24:45
 ---
 ![collection](https://s2.loli.net/2023/11/05/d7XvW6iRON1DoyM.png)
 

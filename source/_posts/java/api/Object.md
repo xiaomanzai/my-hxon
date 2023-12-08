@@ -3,6 +3,7 @@ title: object
 category: java api
 tags:
   - java
+date: 2023-11-02 17:24:45
 ---
 只有无参构造，作为顶级后类，所有的方法都继承于 object
 
