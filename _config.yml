@@ -108,3 +108,28 @@ deploy:
   type: git
   repo: https://github.com/xiaomanzai/xiaomanzai.github.io.git
   branch: master
+
+marked:
+  gfm: true
+  pedantic: false
+  breaks: true
+  smartLists: true
+  smartypants: true
+  quotes: '“”‘’'
+  modifyAnchors: 0
+  anchorAlias: false
+  autolink: true
+  mangle: true
+  sanitizeUrl: false
+  dompurify: false
+  headerIds: true
+  lazyload: false
+  figcaption: false
+  prependRoot: true
+  postAsset: true
+  external_link:
+    enable: false
+    exclude: []
+    nofollow: false
+  disableNunjucks: false
+  descriptionLists: true
