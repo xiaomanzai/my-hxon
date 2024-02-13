@@ -67,3 +67,8 @@ static \<E> collection of (E... elements)
 而对于 map 类的参数仅仅是20个，因此 map 类只能导入20个以下的参数
 
 是因为只能有一个可变参数，因此 map 是不可能的
+
+
+$$
+\int\frac{dx}{\sqrt{(x-a)(b-x)}}
+$$
