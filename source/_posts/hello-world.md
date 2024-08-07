@@ -40,4 +40,4 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-8.8 update
+8.8 update1
