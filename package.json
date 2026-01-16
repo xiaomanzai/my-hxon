@@ -27,7 +27,7 @@
     "simple-oauth2": "~5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.28",
+    "@types/node": "^25.0.9",
     "@types/simple-oauth2": "^5.0.2"
   }
 }
